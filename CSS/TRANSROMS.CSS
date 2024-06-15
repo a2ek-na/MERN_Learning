@@ -1,0 +1,118 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-box{
+    height:500px;
+    display: flex;
+    background-color: palegreen; 
+    justify-content: center;
+    align-items: center;
+}
+.transition-box{
+    width:40%;  
+    height: 50%;
+    background-color: green;
+    transition-property:background-color ,height,width;
+    transition-duration: 1s;
+}
+
+.transition-box:hover{
+    background-color: rgb(4, 87, 4);
+    height: 100%;
+    width:100%;
+}
+.main{
+    height:3000px;
+    background-color: pink;
+    transform: all 1s ease-in-out;
+}
+#transform-1{
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width:40vw;
+    height:300px;
+    background-color: orange;
+}
+.box-1:hover{
+    transform:rotate(200deg);
+}
+#transform-2{
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2{
+    width:40vw;
+    height:300px;
+    background-color: orange;
+}
+.box-2:hover{
+    transform: skew(60deg);
+}
+#transform-3{
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-3{
+    width:40vw;
+    height:300px;
+    background-color: orange;
+}
+.box-3:hover{
+    transform:scale(2) ;
+}
+#transform-4{
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-4{
+    width:40vw;
+    height:300px;
+    background-color: orange;
+}
+.box-4:hover{
+    transform:translateX(10vh);
+}
+#transform-5{
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-5{
+    width:40vw;
+    height:300px;
+    background-color: orange;
+}
+.box-5:hover{
+    transform:translateY(10vw) ;
+}
+#transform-6{
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-6{
+    width:40vw;
+    height:300px;
+    background-color: orange;
+}
+.box-6:hover{
+    transform:translate(10vh,10vw);
+}

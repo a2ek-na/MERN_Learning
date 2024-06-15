@@ -1,0 +1,281 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    height: 70px;
+    display: flex;
+    margin: 0px;
+    background-color: #131921;
+    justify-content: center;
+}
+
+#companylogo {
+    display: flex;
+    height: 50px;
+    background-color: #131921;
+    ;
+    width: 100px;
+}
+
+#mainlogo {
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+#locationlogo {
+    height: 30px;
+    margin: 18px 4px;
+}
+
+#location h4 {
+    color: white;
+    margin: 13px 5px;
+    margin-bottom: 0px;
+}
+
+#location h3 {
+    color: white;
+    margin: 13px 5px;
+    margin-top: 0px;
+}
+
+#location {
+    padding-right: 70px;
+}
+
+#searchbox {
+    padding: 10px 0px;
+}
+
+#searchbox input {
+    width: 530px;
+    height: 30px;
+}
+
+#headerlist {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+#headerlist h5 {
+    color: white;
+    margin: 0px;
+    padding: 0px 25px;
+}
+
+#headerlist h4 {
+    color: white;
+    margin: 0px;
+    padding: 0px 25px;
+}
+
+#headerlist {
+    display: flex;
+}
+
+#aftersearchbox {
+    height: 19px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: skyblue;
+    fill: #000;
+}
+
+#beforesearchbox {
+    display: inline-block;
+    border: none;
+    color: black;
+    height: 20px;
+    padding: 7px;
+    margin-top: 11px;
+    background-color: white;
+}
+
+#option{
+    border:none;
+}
+
+#headerlist a {
+    text-decoration: none
+}
+
+#lastitem {
+    display: flex;
+}
+
+#lastitem h3 {
+    color: white;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+#cart {
+    height: 20px;
+    padding: 5px;
+    margin: 3px;
+}
+
+#bottomheader {
+    height: 55px;
+    padding-top: 1px;
+    background-color: #232f3e;
+}
+
+#headerlist a {
+    background: none;
+    border: none;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+
+.navigation {
+    color: white;
+}
+
+#menubar{
+    margin-top: 4px;
+    padding-right: 4px;
+}
+
+
+#mainheroimage {
+    height: 400px;
+    /* width:100vw ; */
+    background-image: url('hero_image.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* width: 100vw; */
+    /* z-index: -1; */
+}
+
+#textareaonmainhero {
+    position: relative;
+    top: 75%;
+    left: 13%;
+    text-align: center;
+    size: fixed;
+    padding: 7px;
+    width: 75vw;
+    border: none;
+}
+
+.ctnt {
+    background-color: white;
+    height: 400px;
+    margin: 8px;
+    width: 25%;
+}
+
+.ctnt h1 {
+    text-align: center;
+}
+
+.imageSection {
+    width: 90%;
+    height: 75%;
+}
+
+#contentSection1 {
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contentSection2 {
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contentsection1 {
+    margin: auto;
+}
+
+#contentsection2 {
+    margin: auto;
+}
+
+#bottomtop {
+    margin-top: 10px;
+    background-color: #232f3e;
+    height: 40px;
+
+}
+
+#bottomtopbutton {
+    border: none;
+    background-color: #232f3e;
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+    color: white;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: #131921;
+    height: 300px;
+}
+
+.bottomcontent {
+    color: white;
+}
+
+.bottomcontent li {
+    list-style: none;
+    padding: 4px;
+}
+
+.bottomcontent li a {
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
+
+#bottomlogo {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131921;
+    height: 120px;
+}
+
+#bottomamazonlogo {
+    height: 100px;
+}
+
+#footer {
+    background-color: #000;
+    height: 80px;
+}
+
+#footer1 {
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer1 li {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    color: white;
+    margin-bottom: 1px;
+}
+
+#footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

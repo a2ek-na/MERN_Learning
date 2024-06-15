@@ -1,0 +1,35 @@
+.box{
+    border:2px solid black;
+    height: 125px;
+    width: 300px;
+    margin:2px;
+    text-align: center;
+}
+#box1{
+    background-color: aqua;
+    visibility: inherit;
+    z-index: 11;
+    position: relative;
+    top:15px;
+}
+#box2{
+    background-color: salmon;
+    /* visibility: hidden;THIS PROPERTY HIDE THE BOX BUT ITS SPACE SHOULD BE DISPLAYED */
+    /* display: none;/*HOWEVER, THIS PROPERTY ALLOWS US TO HIDE THE BLOCK COMPLETELY,ITS EMPTY SPACE IS REMOVED ALSO */
+    z-index: 13;
+    position: relative;
+}
+#box3{
+    background-color: rebeccapurple;
+}
+#box4{
+    background-color: olivedrab;
+    position: relative;
+    top:15px;
+    z-index: 10;
+}
+#box5{
+    background-color: mediumspringgreen;
+    z-index: 19;
+    position: relative;
+}

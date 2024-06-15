@@ -1,0 +1,42 @@
+ul{
+    list-style: none;
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    clear: both;
+
+}
+li{
+    padding: 2px;
+    margin: 10px;
+    font-size: 1rem;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    height:70vh;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+}
+h1{
+    font-size: 2rem;
+    color: white;
+    /* padding: 2rem; */
+}
+div::before{
+    background:url('marek-piwnicki-oFu9stx-M9I-unsplash.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    z-index: -1;
+    opacity: 0.80;
+}

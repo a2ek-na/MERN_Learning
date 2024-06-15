@@ -1,0 +1,102 @@
+body{
+   background: url('bg.jpg');
+   height: 1000px;
+   color: aliceblue;
+   font-family: 'Baloo Bhai', cursive ;
+}
+
+#left{
+    display: inline-block;
+    position:fixed;
+    top:12px;
+    left: 20px;
+}
+
+#left img{
+    margin:2px 24px;
+    padding:auto;
+    width:50px;
+    filter: invert(100%);
+}
+
+#right{
+    display: inline-block;
+    position:fixed ;
+    top:12px;
+    right: 20px;
+    padding:12px 12px;
+}
+
+#mid{
+    /* display: block;  */
+    position: sticky;
+    top:12px;
+    width: 45%;
+    margin: 12px auto;
+}
+
+#navbar ul{
+    list-style: none;
+}
+
+#navbar li{
+    display: inline-block;
+    padding:12px 12px;
+}
+
+#nav a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size:25px;
+}
+
+#nav a:hover{
+    color: rgb(151, 156, 160);
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: transparent;
+    color: aliceblue;
+    font-size:15px ;
+    border:1px solid white;
+    margin: 0px 8px;
+}
+
+.btn:hover{
+    border:2px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+#main{
+    height:350px;
+    width:33%;
+    border:3px solid rgb(116, 116, 149);
+    position: relative;
+    top: 100px;
+    left:75px;
+    border-radius: 30px;
+}
+
+#main h3{
+    text-align:center;
+}
+
+.form-group input{
+    margin: 10px auto;
+    padding: 6px;
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    width:308px;
+    border-radius: 10px;
+}
+
+.subm{
+    display: block;
+    width: 150px;
+    margin:15px auto;
+}
+

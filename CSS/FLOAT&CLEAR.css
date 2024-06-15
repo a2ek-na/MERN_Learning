@@ -1,0 +1,34 @@
+.container{
+    border:3px solid rgb(42, 34, 34);
+    width:800px;
+    margin:10px auto;
+    padding: 3px 8px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    
+    background-color: #e4ffff;
+}
+/* #fruit{
+    background-color:dimgray;
+} */
+.item{
+    border:3px dotted rgb(41, 37, 37);
+    padding: 3px 4px;
+    margin: 5px 1px;
+    background-color: rgb(213, 245, 245);
+    text-align: center;
+}
+/* id take more priority then class */
+#fruit{
+    
+    float: left;
+    width: 48%;
+}
+#vegetable{
+     float: right;
+    width: 48%;
+} 
+#greenvege
+{
+    clear: both;
+}

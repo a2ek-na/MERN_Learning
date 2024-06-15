@@ -1,0 +1,24 @@
+         /* IN THIS STYLE I AM GIVING CRIMSON COLOR TO PARAGRAPH WRITTEN UNDER <P> TAG. Hence,element selector*/
+ p{
+    color:crimson;
+    border: 2px solid red ;
+}
+
+/* IN THIS STYLE I AM GIVING MAROON COLOR TO PARAGRAPH WRITTEN UNDER meh ID. Hence id selectors. */
+#meh{
+    color:maroon;
+    border: 2px solid rgb(92, 234, 4) ;
+}
+
+/* IN THIS STYLE I AM GIVING HOTPINK BACK GROUND COLOR TO PARAGRAPH WRITTEN UNDER bghp class Hence class selectors. */
+.bghp{
+    background-color:hotpink;
+    color:palegoldenrod;
+    border: 2px solid rgb(8, 180, 242);
+}
+
+/* IN THIS STYLE I AM GIVING DARKGOLDENROD COLOR TO PARAGRAPH WRITTEN UNDER <P1> TAG. Hence,element selector */
+p1{
+    color:darkgoldenrod;
+    border: 2px solid rgba(241, 238, 12, 0.458) ;
+}

@@ -1,0 +1,13 @@
+#first{
+    border: 5px solid burlywood;
+    padding: 50px;
+    margin: 20px;
+    background-color: aqua;
+}
+
+#second{
+    border: 5px solid rgb(68, 26, 14);
+    padding: 40px;
+    margin: 20px;
+    background-color: rgb(183, 212, 109);
+}
