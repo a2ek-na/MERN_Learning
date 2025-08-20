@@ -5,13 +5,13 @@ const PORT = 3002;
 const application = exp();
 
 
-application.post('/submitForm', (req, res) => {
+application.post('/submitForm', (req, res, next) => {
   console.log(req.url, req.method);
   console.log("The body is not defined here:", req.body);
-  res.send(`Hello ${req.body.fname} ${req.body.lname}, your form was submitted!`);
+  next();
 });
 
-application.use(bodyParser.urlencoded({ extended: true }));
+application.use(bodyParser.urlencoded({}));
 
 application.post('/submitForm', (req, res) => {
   console.log(req.url, req.method);
