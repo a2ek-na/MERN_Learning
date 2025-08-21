@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUKUN-NIVAS</title>
+</head>
+<body>
+    <h1>Welcome to SUKUN-NIVAS</h1>
+    <h2>You just have to fill a little form below to let the rentals see your Apartment.</h2>
+    <form action = "/host/registerHome" method = "POST">
+        <label for = "ghrkaNaam">Enter the name of you house</label>
+        <input type = "text" name = "houseName" id = "ghrKaNaam" class = "formInput"></input>
+
+        <label for = "khudkaNaam">Enter your name</label>
+        <input type = "text" name = "ownerName" id = "khudKaNaam" class = "formInput"></input>
+
+        <label for = "mail">Enter your email</label>
+        <input type = "email" name = "email" id = "mail" class = "formInput"></input>
+
+        <label for = "phone">Enter your Phone Number</label>
+        <input type = "text" name = "contactNumber" id = "phone" class = "formInput"></input>
+
+        <label for = "ghrkaPta">Enter location of the Apartment</label>
+        <input type = "text" name = "addressOfAppartment" id = "ghrkaPta" class = "formInput"></input>
+
+        <label for = "cost">Enter estimated cost</label>
+        <input type = "number" name = "rentPrice" id = "cost" class = "formInput"></input>
+
+        <button type = "submit">Submit</button>
+    </form>
+</body>
+</html>
