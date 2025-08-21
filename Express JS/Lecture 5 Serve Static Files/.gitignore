@@ -1,0 +1,17 @@
+node_modules/
+
+.env.
+.env.*.local
+
+build/
+dist/
+
+.vscode/
+.idea/
+
+.cache/
+.parse-cache/
+
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
