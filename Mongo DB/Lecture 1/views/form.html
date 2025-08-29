@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/style/form.css">
+</head>
+<body>
+    <form id = "formBody" action="submitForm" method = "POST">
+        <div class="inputField">
+            <label for = "fName">Enter First name - </label>
+            <input type = "text" placeholder = "Abhina" class = "formInput" name = "firstName" id = "fName" required>
+        </div>
+
+        <div class="inputField">
+            <label for = "lName">Enter Last name - </label>
+            <input type = "text" placeholder = "Sagta" class = "formInput" name = "lastName" id = "lName" required>
+        </div>
+
+        <div class="inputField">
+            <label for = "fatName">Enter Father's name - </label>
+            <input type = "text" placeholder = "alpha betta" class = "formInput" name = "fatherName" id = "fatName" required>
+        </div>
+
+        <div class="inputField">
+            <label for = "motName">Enter Mother's name - </label>
+            <input type = "text" placeholder = "gamma delta" class = "formInput" name = "motherName" id = "motName" required>
+        </div>
+
+        <div class="inputField">
+            <label for = "mail">Enter your e-mail - </label>
+            <input type = "email" placeholder = "alpha123@xyz.com" class = "formInput" name = "email" id = "mail" required>
+        </div>
+        
+        <div class="inputField">
+            <label for = "gender">Gender - </label>>
+            <input type = "radio" name="gender" class = "formInput" id="gender" value = "Male">Male
+            <input type = "radio" name="gender" class = "formInput" id="gender" value = "Female">Female
+            <input type = "radio" name="gender" class = "formInput" id="gender" value = "NA">Rather not say
+        </div>
+
+        <div class="inputField">
+            <label for = "dob">Date of Birth - </label>
+            <input type = "date" default ="21/06/2002" class = "formInput" name = "dateOfBirth" id = "dob" required>
+        </div>
+
+        <div class="inputField">
+            <label for = "skill">Skill - </label>
+            <select name="skill" id="skill" required>
+                <option value="" selected>None</option>
+                <option value="BackEnd">Backend {JavaScript, NodeJS, ExpressJS, MongoDB, Mongoose}</option>
+                <option value="FrontEnd">Frontend {React, HTML, CSS, JavaScript, Tallwind}</option>
+                <option value="MachineLearning">AI/ML {Python, pandas, numpy, NLP, LLM}</option>
+            </select>
+        </div>
+
+        <div class="inputField" id = "addrs">
+            <label for = "adrs">Address - </label>
+            <textarea rows = 6 placeholder = "Village, Post Office, Tehsil, District, State, Country, Pin-code" class = "formInput" name = "address" id = "adrs" required></textarea>
+        </div>
+        
+        
+        <div class="inputField">
+            <button type="submit" id = "button">Submit</button>
+        </div>    
+    </form>
+</body>
+</html>
