@@ -1,0 +1,14 @@
+node_modules/
+
+.env.
+.env.*.local
+
+.cache/
+.next/
+.parse-cache/
+
+build/
+dist/
+
+.vscode/
+.idea/
